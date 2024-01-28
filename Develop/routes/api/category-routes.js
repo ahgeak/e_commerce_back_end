@@ -9,7 +9,8 @@ router.get("/", async (req, res) => {
   try {
     const categoryData = await Category.findAll({
       // be sure to include its associated Products *** I need to fix this***
-      include: [{ model: Product }]
+      include: [{ model: Product, as: 'products' }]
+      // include: [{ model: Product }]
 
       // include: [Product],
 
@@ -74,9 +75,9 @@ router.put("/:id", async (req, res) => {
 // delete route to delete a category by its `id` value
 router.delete("/:id", async (req, res) => {
   try {
-    const categoryData = await Category.destroy({
-      where: { id: req.params.id }
-    });
+    const categoryData = await Category.destroy(
+      { where: { id: req.params.id } }
+      );
 
     if (!categoryData) {
       res.status(400).json({ message: "No category found with this ID. "});

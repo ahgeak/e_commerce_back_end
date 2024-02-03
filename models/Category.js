@@ -1,9 +1,11 @@
+// import model and datatypes from sequelize to utalize in the model
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
 
 class Category extends Model {}
 
+// set up fields and rules for Category model
 Category.init(
   {
     id: {

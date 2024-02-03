@@ -1,7 +1,7 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "e_commerce_back_end",
   "version": "1.0.0",
-  "description": "",
+  "description": "A back-end program for an e-commerce business",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "https://github.com/ahgeak/e_commerce_back_end"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ahgeak",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.3"
   },

@@ -49,9 +49,9 @@ Once you have downloaded the file you will follow these steps:
 6. Open Insomnia and navigate to "http://127.0.0.1:3001/"
 7. Explore get, put, post, and delete requests using the routes: "/api/products", "/api/categories", "/api/tags"
 
-GitHub Repo: 
+GitHub Repo: https://github.com/ahgeak/e_commerce_back_end
 
-Walkthrough Video: 
+Walkthrough Video: https://drive.google.com/file/d/1U4NcTNWFdkF3VFD9LC_Wkjby_4IoNxzO/view?usp=sharing 
 
 Screenshot of get request for the Tags api route:
 

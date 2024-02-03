@@ -51,7 +51,7 @@ Once you have downloaded the file you will follow these steps:
 
 GitHub Repo: https://github.com/ahgeak/e_commerce_back_end
 
-Walkthrough Video: https://drive.google.com/file/d/1U4NcTNWFdkF3VFD9LC_Wkjby_4IoNxzO/view?usp=sharing 
+Walkthrough Video: https://drive.google.com/file/d/1eltG4wDac7nFsdAE-0U3Js97SGGLGymt/view?usp=sharing
 
 Screenshot of get request for the Tags api route:
 
